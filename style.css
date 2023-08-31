@@ -1,0 +1,214 @@
+ *{
+    margin: 0;
+    padding: 0;
+ }
+
+body{
+    background:url(dark.jpg);
+    height: 100vh;
+    height: -webkit-fill-available;
+    
+}
+
+html{
+    height: -web-webkit-fill-available;
+}
+p{
+    color: #fff;
+}
+
+.container{
+    width: 85%;
+    margin: 80px auto;
+    flex: 1 1 150px;
+}
+.sliding{
+    animation: slide 2s;
+   
+}
+
+
+    
+
+
+.container h1{
+    padding: 60px 0;
+    color: #fff;
+    font-size: 44px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.mcs{
+    display: flex;
+    background: #efefef;
+    margin: 20px 0;
+    align-items: center;
+    border-radius: 6px;
+    overflow: hidden;
+    width: 110%;
+}
+    
+
+.mcs p{
+    color: #707070;
+}
+    
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.col{
+    flex-basis: 50%;
+    min-width: 250px;
+}
+
+.feature-img{
+    width: 83%;
+    margin: auto;
+    position: relative;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #efefef;
+    margin: 20px 0;
+    align-items: center;
+    border-radius: 6px;
+    overflow: hidden;
+    width: 85%;
+}
+.feature-img p{
+    color: #707070;
+}
+
+.small-img-row{
+    display: flex;
+    background: #efefef;
+    margin: 20px 0;
+    align-items: center;
+    border-radius: 6px;
+    overflow: hidden;
+    width: 110%;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+.small-img{
+    position: relative;
+}
+.small-img img{
+    width: 110px;
+}
+.small-img-row p{
+    margin-left: 20px;
+    color: #707070;
+    font-size: 15px;
+}
+.play-btn{
+    width: 60px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+.small-img .play-btn{
+    width: 35px
+
+}
+.video-player{
+    width: 80%;
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.close-btn{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    cursor: pointer;
+}
+
+@media (max-width:400px) {
+       .container{
+        height: 90%;
+        width: 90%;
+       }
+       .video-player{
+        height: 90%;
+        width: 90%;
+       }
+    }
+ @media (max-width:200px) {
+        .container{
+         height: 90%;
+         width: 90%;
+        }
+        .video-player{
+         height: 90%;
+         width: 90%;
+        }
+
+       
+}
+
+@keyframes slide{
+
+     0%{
+        background-image: url('RMAND.jpg');
+     }
+     20%{
+        background-image: url('Gigi Saldaña.jpg');
+     }
+     20.01%{
+        background-image: url('Wanda.jpg');
+     }
+     40%{
+        background-image: url('justin-bieber.jpg');
+     }
+     60%{
+        background-image: url('RMAND.jpg');
+     }
+     80%{
+        background-image: url('Gigi Saldaña.jpg');
+     }
+     100.01%{
+        background-image: url('Wanda.jpg');
+     }
+     112%{
+        background-image: url('justin-bieber.jpg');
+     }
+     115%{
+        background-image: url('RMAND.jpg');
+     }
+     135%{
+        background-image: url('Gigi Saldaña.jpg');
+     }
+     145.01%{
+        background-image: url('Wanda.jpg');
+     }
+     120%{
+        background-image: url('justin-bieber.jpg');
+     }
+     120.25%{
+        background-image: url('RMAND.jpg');
+     }
+     125%{
+        background-image: url('Gigi Saldaña.jpg');
+     }
+     127.01%{
+        background-image: url('Wanda.jpg');
+     }
+     130%{
+        background-image: url('justin-bieber.jpg');
+     }
+     132%{
+        background-image: url('RMAND.jpg');
+     }
+      
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>   vs code</title>
+        
+        
+
+            <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        
+        <div class="container">
+            <h1>Welcome To The Best Music Player website</h1>
+            
+            <div class="sliding">
+                
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <div class="feature-img" >
+                        <img src="RMAND.jpg" Width="100%" >
+                        <img  class="play-btn" src="play.png" onclick="playVideo('videoplayback.mp4')" >
+                        <P>El Patio – LA FIRMA, Rmand <br>(Live Performance as seen on Netflix’s LA FIRMA)</P>
+                    </div>
+                    
+                    
+                </div>
+                <div class="col">
+                    <div class="small-img-row">
+                        <div class="small-img">
+                            <img src="Wanda.jpg" > 
+                            <img  class="play-btn" src="play.png" onclick="playVideo('Vamos Pal Espacio  LA FIRMA WANDA.mp4')" > 
+                        </div>
+                        <p>Vamos Pal Espacio– LA FIRMA, Wanda  <br>
+                            (Live Performance as seen on Netflix’s LA FIRMA)</p>                 
+                    </div>
+                    <div class="col">
+                        <div class="small-img-row">
+                            <div class="small-img">
+                                <img src="Gigi Saldaña.jpg" > 
+                                <img  class="play-btn" src="play.png" onclick="playVideo('Party De Marquesina  LA FIRMA.mp4')" > 
+                            </div>
+                            <p>Party De Marquesina  LA FIRMA,Gigi Saldaña  <br>
+                                (Live Performance as seen on Netflix’s LA FIRMA)</p>                 
+                        </div>
+                        <div class="col">
+                    <div class="small-img-row">
+                        <div class="small-img">
+                            <img src="Rmand ep6.jpg" >
+                            <img  class="play-btn" src="play.png"onclick="playVideo('Frio Que Quema  LA FIRMA RMAND.mp4')" >  
+                        </div>
+                        <p>Frio Que Quema  LA -FIRMA Rmand  <br>
+                            (Live Performance as seen on Netflix’s LA FIRMA)</p>                 
+                    </div>                 
+                </div>
+                <div class="mcs">
+                    <img src="Wanda.jpg" width="25%" > 
+                    <audio class="music" width="50%"  controls src="y2mate.com - Jemere Morgan  International Love Official Music Video.mp3">  
+                    </audio>
+                    
+                    <p>Jemere morgan</p>
+                </div>
+            </div>
+                   
+        </div>
+
+        <div class="video-player" id="videoPlayer">
+            <video width="100%" controls   id="myVideo" >
+                <source src="videoplayback.mp4" type="video/mp4"> 
+                
+            </video>
+            <img src="close.png" class="close-btn" 
+            onclick="stopVideo()">
+        </div> 
+
+        
+        
+        
+                     
+
+<script src="script.js">
+   
+    
+</script>
+
+
+
+
+    </body>
+</html>
